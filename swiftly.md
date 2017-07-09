@@ -18,13 +18,13 @@ Invoke the following instructions from a bash shell on your server.
 
 Update the apt-get database.
 
-sudo apt-get update
+# sudo apt-get update
 Install the Python installer, pip, using apt-get.
 
-sudo apt-get install python-pip
+# sudo apt-get install python-pip
 Install Swiftly using pip.
 
-sudo pip install swiftly
+# sudo pip install swiftly
 
 Install Swiftly on CentOS
 *************************
@@ -34,12 +34,12 @@ Invoke the following instructions from a bash shell on your server.
 
 Install the Python installer, pip, using yum.
 
-sudo yum install python-pip
+# sudo yum install python-pip
 If you get an error saying the package can’t be found, the EPEL repository needs to be enabled. For information on setting up the EPEL repository on your system, see Install EPEL and additional repositories on CentOS and Red Hat. When EPEL is enabled, run the install command for pip again.
 
 Install swiftly using pip.
 
-sudo pip install swiftly
+# sudo pip install swiftly
 **********************************************************
 
 The swiftly conf:
@@ -57,13 +57,13 @@ Troubleshooting/pre-reqs:
 Installing Necessary Dependencies
 To use swiftly you'll need to install some other stuff along with it.
 
-# CentOS Systems
-yum install python-devel gcc python-pip
-pip install swiftly eventlet
+CentOS Systems
+# yum install python-devel gcc python-pip
+# pip install swiftly eventlet
  
-# Debian / Ubuntu or other aptitude based OS 
-apt-get install python-dev gcc python-pip
-pip install swiftly eventlet
+Debian / Ubuntu or other aptitude based OS 
+# apt-get install python-dev gcc python-pip
+# pip install swiftly eventlet
 **********************************************************
 
 Example usage:
@@ -74,8 +74,8 @@ Example usage:
 # swiftly --verbose delete gallery --recursive --until-empty
 
 This deletes with concurrent connections:
-swiftly --eventlet --concurrency 100 delete CONTAINER --until-empty --recursive
+# swiftly --eventlet --concurrency 100 delete CONTAINER --until-empty --recursive
 
 Download all items in container to specfic path:
-swiftly get --all-objects DEEPKNOWLEDGE_STATIC -o /root/customer/
+# swiftly get --all-objects DEEPKNOWLEDGE_STATIC -o /root/customer/
 
