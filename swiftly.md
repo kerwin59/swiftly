@@ -41,7 +41,7 @@ If you get an error saying the package can’t be found, the EPEL repository nee
 
 # Install swiftly using pip.
 
-sudo pip install swiftly
+sudo pip install swiftly<br>
 **********************************************************
 
 # The swiftly conf:
@@ -56,28 +56,28 @@ region = LON<br>
 
 # Troubleshooting/pre-reqs:
 **********************************************************
-Installing Necessary Dependencies
-To use swiftly you'll need to install some other stuff along with it.
+Installing Necessary Dependencies<br>
+To use swiftly you'll need to install some other stuff along with it.<br>
 
 # CentOS Systems
-yum install python-devel gcc python-pip
-pip install swiftly eventlet
+yum install python-devel gcc python-pip<br>
+pip install swiftly eventlet<br>
  
 # Debian / Ubuntu or other aptitude based OS 
-apt-get install python-dev gcc python-pip
-pip install swiftly eventlet
+apt-get install python-dev gcc python-pip<br>
+pip install swiftly eventlet<br>
 **********************************************************
 
 # Example usage:
 ***************
-swiftly get
-<if you have containers, they will be listed>
+swiftly get<br>
+if you have containers, they will be listed<br>
 
-swiftly --verbose delete gallery --recursive --until-empty
+swiftly --verbose delete gallery --recursive --until-empty<br>
 
-This deletes with concurrent connections:
-swiftly --eventlet --concurrency 100 delete CONTAINER --until-empty --recursive
+This deletes with concurrent connections:<br>
+swiftly --eventlet --concurrency 100 delete CONTAINER --until-empty --recursive<br>
 
-Download all items in container to specfic path:
-swiftly get --all-objects DEEPKNOWLEDGE_STATIC -o /root/customer/
+Download all items in container to specfic path:<br>
+swiftly get --all-objects DEEPKNOWLEDGE_STATIC -o /root/customer/<br>
 
