@@ -1,5 +1,5 @@
 # Swiftly
-I believe the author to be gholt
+
 <p>Swiftly is a client tool that you can use to upload objects to and download objects from your Cloud Files account. Swiftly manages the storage of large objects in Cloud Files. If you have a very large object (such as a virtual disk image file), Swiftly splits the file into smaller segments and then creates the large object manifest for you.</p>
 <br>
 For more information about Swiftly, see the following sites:<br>
