@@ -16,10 +16,11 @@ These instructions were verified on a server built from a Rackspace Ubuntu 16.04
 
 Invoke the following instructions from a bash shell on your server.
 
-Update the apt-get database.
+# Update the apt-get database.
 
 sudo apt-get update
-Install the Python installer, pip, using apt-get.
+
+# Install the Python installer, pip, using apt-get.
 
 sudo apt-get install python-pip
 
