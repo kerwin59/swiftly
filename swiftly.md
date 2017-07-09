@@ -2,13 +2,13 @@
 *******<br>
 
 <p>Swiftly is a client tool that you can use to upload objects to and download objects from your Cloud Files account. Swiftly manages the storage of large objects in Cloud Files. If you have a very large object (such as a virtual disk image file), Swiftly splits the file into smaller segments and then creates the large object manifest for you.</p>
-************************************************************************<br>
+<br>
 For more information about Swiftly, see the following sites:<br>
 
 The Python package index page: https://pypi.python.org/pypi/swiftly/2.02<br>
 Swiftly documentation: http://gholt.github.io/swiftly/<br>
 Swiftly source code: https://github.com/gholt/swiftly<br>
-************************************************************************<br>
+<br>
 
 # Install Swiftly on Ubuntu 
 *************************
