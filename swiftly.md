@@ -6,8 +6,8 @@ Swiftly is a client tool that you can use to upload objects to and download obje
 For more information about Swiftly, see the following sites:
 
 The Python package index page: https://pypi.python.org/pypi/swiftly/2.02<br>
-Swiftly documentation: http://gholt.github.io/swiftly/
-Swiftly source code: https://github.com/gholt/swiftly
+Swiftly documentation: http://gholt.github.io/swiftly/<br>
+Swiftly source code: https://github.com/gholt/swiftly<br>
 ************************************************************************
 
 # Install Swiftly on Ubuntu 
@@ -46,13 +46,13 @@ sudo pip install swiftly
 
 # The swiftly conf:
 **********************************************************
-[/root/.swiftly.conf]
+[/root/.swiftly.conf]<br>
 
-[swiftly]
-auth_user = mycloudusernamehere
-auth_key = myapikeyhere
-auth_url = https://identity.api.rackspacecloud.com/v2.0
-region = LON
+[swiftly]<br>
+auth_user = mycloudusernamehere<br>
+auth_key = myapikeyhere<br>
+auth_url = https://identity.api.rackspacecloud.com/v2.0<br>
+region = LON<br>
 
 # Troubleshooting/pre-reqs:
 **********************************************************
