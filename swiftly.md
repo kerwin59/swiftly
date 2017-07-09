@@ -5,7 +5,7 @@ Swiftly is a client tool that you can use to upload objects to and download obje
 ************************************************************************
 For more information about Swiftly, see the following sites:
 
-The Python package index page: https://pypi.python.org/pypi/swiftly/2.02
+The Python package index page: https://pypi.python.org/pypi/swiftly/2.02<br>
 Swiftly documentation: http://gholt.github.io/swiftly/
 Swiftly source code: https://github.com/gholt/swiftly
 ************************************************************************
