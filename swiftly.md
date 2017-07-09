@@ -1,9 +1,9 @@
 # Swiftly
 *******
 
-Swiftly is a client tool that you can use to upload objects to and download objects from your Cloud Files account. Swiftly manages the storage of large objects in Cloud Files. If you have a very large object (such as a virtual disk image file), Swiftly splits the file into smaller segments and then creates the large object manifest for you.
+<p>Swiftly is a client tool that you can use to upload objects to and download objects from your Cloud Files account. Swiftly manages the storage of large objects in Cloud Files. If you have a very large object (such as a virtual disk image file), Swiftly splits the file into smaller segments and then creates the large object manifest for you.</p>
 ************************************************************************
-For more information about Swiftly, see the following sites:
+For more information about Swiftly, see the following sites:<br>
 
 The Python package index page: https://pypi.python.org/pypi/swiftly/2.02<br>
 Swiftly documentation: http://gholt.github.io/swiftly/<br>
@@ -12,32 +12,32 @@ Swiftly source code: https://github.com/gholt/swiftly<br>
 
 # Install Swiftly on Ubuntu 
 *************************
-These instructions were verified on a server built from a Rackspace Ubuntu 16.04 public image.
+These instructions were verified on a server built from a Rackspace Ubuntu 16.04 public image.<br>
 
-Invoke the following instructions from a bash shell on your server.
+Invoke the following instructions from a bash shell on your server.<br>
 
 # Update the apt-get database.
 
-sudo apt-get update
+sudo apt-get update<br>
 
 # Install the Python installer, pip, using apt-get.
 
-sudo apt-get install python-pip
+sudo apt-get install python-pip<br>
 
 # Install Swiftly using pip.
 
-sudo pip install swiftly
+sudo pip install swiftly<br>
 
 # Install Swiftly on CentOS
 *************************
-These instructions were verified on a server built from a Rackspace CentOS 6+ public image.
+These instructions were verified on a server built from a Rackspace CentOS 6+ public image.<br>
 
-Invoke the following instructions from a bash shell on your server.
+Invoke the following instructions from a bash shell on your server.<br>
 
 # Install the Python installer, pip, using yum.
 
-sudo yum install python-pip
-If you get an error saying the package can’t be found, the EPEL repository needs to be enabled. For information on setting up the EPEL repository on your system, see Install EPEL and additional repositories on CentOS and Red Hat. When EPEL is enabled, run the install command for pip again.
+sudo yum install python-pip<br>
+<p>If you get an error saying the package can’t be found, the EPEL repository needs to be enabled. For information on setting up the EPEL repository on your system, see Install EPEL and additional repositories on CentOS and Red Hat. When EPEL is enabled, run the install command for pip again.</p>
 
 # Install swiftly using pip.
 
