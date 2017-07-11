@@ -70,11 +70,17 @@ swiftly --eventlet --concurrency 100 delete CONTAINER --until-empty --recursive<
 
 Download all items in container to specfic path:<br>
 swiftly get --all-objects DEEPKNOWLEDGE_STATIC -o /root/customer/<br>
+
+Backup one website:<br>
 swiftly -v put -h "Content-Type: application/x-gzip" -n -i /var/www/vhosts/mydomain.net Weekly_web/mydomain.net<br>
+
+Grabbing Holland backups of the databases -using ServiceNet -looking for different -weekly *set up cron for this to work
 swiftly -v --snet put -h "Content-Type: application/x-gzip" -d -i /var/lib/mysqlbackup/default/ Weekly_databases<br>
+
+Streaming into Swiftly works ---Any other ways to do this? maybe ??scp/rsync/cp/mv/gunzip??:<br>
 cd /path/to/backup; tar zc . | swiftly put -qextract-archive=tar.gz -i - container<br>
 
-Working on these...YMMV
+# Working on these...YMMV  --Wishing for feature or otherwise find my error
 swiftly -v put -h "Content-Type: image/jpeg" -i ../PicturesFolder/ PicturesContainer<br>
 
 This one wasn't working, but somewhere (? .vhd image file) I saw this as an example. Swift could do a single file. I tried but ran into dependence issues with python. another day<br>
