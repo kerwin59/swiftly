@@ -78,3 +78,5 @@ This one wasn't working, but somewhere (? .vhd image file) I saw this as an exam
 <br>
 swiftly put -h "Content-Type: application/x-gzip" -i /root/date_mydomain.net.tar.gz TestGzipBackups<br>
 swiftly -v put -h "Content-Type: application/x-gzip" -n -i /var/www/vhosts/mydomain.net Weekly_web/mydomain.net<br>
+swiftly -v --snet put -h "Content-Type: application/x-gzip" -d -i /var/lib/mysqlbackup/default/ Weekly_databases<br>
+cd /path/to/backup; tar zc . | swiftly put -qextract-archive=tar.gz -i - container<br>
