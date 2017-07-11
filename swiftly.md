@@ -70,6 +70,9 @@ swiftly --eventlet --concurrency 100 delete CONTAINER --until-empty --recursive<
 
 Download all items in container to specfic path:<br>
 swiftly get --all-objects DEEPKNOWLEDGE_STATIC -o /root/customer/<br>
+swiftly -v put -h "Content-Type: application/x-gzip" -n -i /var/www/vhosts/mydomain.net Weekly_web/mydomain.net<br>
+swiftly -v --snet put -h "Content-Type: application/x-gzip" -d -i /var/lib/mysqlbackup/default/ Weekly_databases<br>
+cd /path/to/backup; tar zc . | swiftly put -qextract-archive=tar.gz -i - container<br>
 
 Working on these...YMMV
 swiftly -v put -h "Content-Type: image/jpeg" -i ../PicturesFolder/ PicturesContainer<br>
@@ -77,6 +80,4 @@ swiftly -v put -h "Content-Type: image/jpeg" -i ../PicturesFolder/ PicturesConta
 This one wasn't working, but somewhere (? .vhd image file) I saw this as an example. Swift could do a single file. I tried but ran into dependence issues with python. another day<br>
 <br>
 swiftly put -h "Content-Type: application/x-gzip" -i /root/date_mydomain.net.tar.gz TestGzipBackups<br>
-swiftly -v put -h "Content-Type: application/x-gzip" -n -i /var/www/vhosts/mydomain.net Weekly_web/mydomain.net<br>
-swiftly -v --snet put -h "Content-Type: application/x-gzip" -d -i /var/lib/mysqlbackup/default/ Weekly_databases<br>
-cd /path/to/backup; tar zc . | swiftly put -qextract-archive=tar.gz -i - container<br>
+
