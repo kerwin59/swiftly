@@ -74,8 +74,7 @@ swiftly get --all-objects DEEPKNOWLEDGE_STATIC -o /root/customer/<br>
 Working on these...YMMV
 swiftly -v put -h "Content-Type: image/jpeg" -i ../PicturesFolder/ PicturesContainer<br>
 
-This one wasn't working, but somewhere (? .vhd image file) I saw this as an example. Swift could do a single file. I tried but ran into<br>
-dependence issues with python. another day<br>
+This one wasn't working, but somewhere (? .vhd image file) I saw this as an example. Swift could do a single file. I tried but ran into dependence issues with python. another day<br>
 <br>
 swiftly put -h "Content-Type: application/x-gzip" -i /root/date_mydomain.net.tar.gz TestGzipBackups<br>
 swiftly -v put -h "Content-Type: application/x-gzip" -n -i /var/www/vhosts/mydomain.net Weekly_web/mydomain.net<br>
