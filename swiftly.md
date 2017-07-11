@@ -71,5 +71,8 @@ swiftly --eventlet --concurrency 100 delete CONTAINER --until-empty --recursive<
 Download all items in container to specfic path:<br>
 swiftly get --all-objects DEEPKNOWLEDGE_STATIC -o /root/customer/<br>
 
+Working on these...YMMV
 swiftly -v put -h "Content-Type: image/jpeg" -i ../PicturesFolder/ PicturesContainer<br>
-swiftly put -h "Content-Type: file/gzip" -i /root/date_domain.net.tar.gz TestGzipBackups<br>
+swiftly put -h "Content-Type: application/x-gzip" -i /root/date_mydomain.net.tar.gz TestGzipBackups<br>
+swiftly -v put -h "Content-Type: application/x-gzip" -n -i /var/www/vhosts/mydomain.net Weekly_web/mydomain.net<br>
+tar -zcvf /home/mydomain.net.tar.gz /var/www/vhosts/mydomain.net; 
