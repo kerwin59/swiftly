@@ -80,7 +80,6 @@ swiftly -v --snet put -h "Content-Type: application/x-gzip" -d -i /var/lib/mysql
 Streaming into Swiftly works ---Any other ways to do this? maybe ??scp/rsync/cp/mv/gunzip??:<br>
 cd /path/to/backup; tar zc . | swiftly put -qextract-archive=tar.gz -i - container<br>
 
-# Working on these...YMMV  --Wishing for feature or otherwise find my error
 swiftly -v put -h "Content-Type: image/jpeg" -i ../PicturesFolder/ PicturesContainer<br>
 
 swiftly put -h "Content-Type: application/x-gzip" -i /root/date_mydomain.net.tar.gz TestGzipBackups/date_mydomain.tar.gz<br>
