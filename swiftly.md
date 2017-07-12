@@ -83,7 +83,5 @@ cd /path/to/backup; tar zc . | swiftly put -qextract-archive=tar.gz -i - contain
 # Working on these...YMMV  --Wishing for feature or otherwise find my error
 swiftly -v put -h "Content-Type: image/jpeg" -i ../PicturesFolder/ PicturesContainer<br>
 
-This one wasn't working, but somewhere (? .vhd image file) I saw this as an example. Swift could do a single file. I tried but ran into dependence issues with python. another day<br>
-<br>
-swiftly put -h "Content-Type: application/x-gzip" -i /root/date_mydomain.net.tar.gz TestGzipBackups<br>
+swiftly put -h "Content-Type: application/x-gzip" -i /root/date_mydomain.net.tar.gz TestGzipBackups/date_mydomain.tar.gz<br>
 
