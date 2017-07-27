@@ -78,7 +78,7 @@ cd /path/to/backup; tar zc . | swiftly put -qextract-archive=tar.gz -i - contain
 
 swiftly -v put -h "Content-Type: image/jpeg" -i ../PicturesFolder/ PicturesContainer<br>
 
-# Put local file to your Cloud Files:
+# Put local files to your Cloud Files:
 First make sure the container exists...or create it:I haven't found a way around this errors with "OSError: [Errno 2] No such file or directory: 'file_name.txt'"<br>
 swiftly -v put -h "Content-Type: application/x-gzip" TestGzipBackups<br>
 swiftly put -h "Content-Type: application/x-gzip" -i /root/date_mydomain.net.tar.gz TestGzipBackups/date_mydomain.tar.gz<br>
