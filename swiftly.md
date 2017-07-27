@@ -63,6 +63,8 @@ This deletes with concurrent connections:<br>
 swiftly --eventlet --concurrency 100 delete CONTAINER --until-empty --recursive<br>
 
 Download all items in container to specfic path:<br>
+This can download your sites to another server or off site...work in progress..worked on one site but failed on<br>
+.htaccess for next site<br>
 swiftly get --all-objects DEEPKNOWLEDGE_STATIC -o /root/customer/<br>
 
 Backup one website:<br>
